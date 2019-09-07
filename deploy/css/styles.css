@@ -42,3 +42,36 @@ img{
     overflow: hidden;
     padding: 0 2rem;
 }
+
+.navbar{
+    font-size: 1.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.3rem;
+}
+
+.navbar .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.navbar .logo{
+    font-size: 2rem;
+}
+
+.navbar .nav{
+    /* move the nav link to the right */
+    justify-self: flex-end;
+
+    /* display the links side by side */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .nav a{
+    padding: 0 1rem;
+}
+
+.navbar .nav a:hover{
+    color: #87770f
+}
