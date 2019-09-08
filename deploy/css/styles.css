@@ -76,6 +76,14 @@ img{
     color: #87770f
 }
 
+.section-showcase .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
 .marginTB{
     margin: 2rem 0;
 }
