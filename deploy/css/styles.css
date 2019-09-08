@@ -75,3 +75,7 @@ img{
 .navbar .nav a:hover{
     color: #87770f
 }
+
+.marginTB{
+    margin: 2rem 0;
+}
