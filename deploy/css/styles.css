@@ -1,7 +1,7 @@
 :root{
     --primary-color:#ffb012;
     --secondary-color: #d69513;
-    --overaly-color: rgba(0, 0, 0, 0.7);
+    --overaly-color: rgba(245, 198, 44, 0.5);
 }
 
 /* global reset */
@@ -43,6 +43,8 @@ img{
     padding: 0 2rem;
 }
 
+/* Navbar */
+
 .navbar{
     font-size: 1.2rem;
     padding-top: 0.1rem;
@@ -76,6 +78,8 @@ img{
     color: #87770f
 }
 
+/* Showcase */
+
 .section-showcase .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -92,6 +96,16 @@ img{
 .section-showcase p{
     margin: 1rem 0;
 }
+
+/* Overlay */
+
+.section-overlay{
+    position: relative;
+    background: url(../img/overlay.jpe) no-repeat bottom center/cover;
+    height: 600px;
+}
+
+/* Utilities */
 
 .marginTB{
     margin: 2rem 0;
@@ -110,4 +124,13 @@ img{
 
 .btn:hover{
     background-color: var(--secondary-color);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--overaly-color);
 }
