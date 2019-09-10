@@ -1,7 +1,7 @@
 :root{
     --primary-color:#ffb012;
     --secondary-color: #d69513;
-    --overaly-color: rgba(245, 198, 44, 0.5);
+    --overaly-color: rgba(168, 140, 47, 0.6);
 }
 
 /* global reset */
@@ -103,6 +103,39 @@ img{
     position: relative;
     background: url(../img/overlay.jpe) no-repeat bottom center/cover;
     height: 600px;
+}
+
+.section-overlay-inner{
+    color: white;
+
+    /* to take up the whole space within the background image */
+    height: 100%;
+
+    /* center the text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    /* center the text because of the max-width */
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 0;
+}
+
+.section-overlay-inner h2{
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.section-overlay-inner h3{
+    font-size: 2rem;
+}
+
+.section-overlay-inner p{
+    font-size: 1.4rem;
+    margin-top: 1rem;
 }
 
 /* Utilities */
