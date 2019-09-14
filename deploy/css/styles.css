@@ -191,3 +191,7 @@ img{
     width: 100%;
     background-color: var(--overaly-color);
 }
+
+.icon-size{
+    width: 70px;
+}
