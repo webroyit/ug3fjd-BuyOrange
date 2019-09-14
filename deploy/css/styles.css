@@ -159,7 +159,35 @@ img{
 
 .section-gallery .gallery img, .section-gallery .gallery a{
     width: 100%;
-    height: 100%;;
+    height: 100%;
+}
+
+/* footer */
+
+.section-footer{
+    background: var(--primary-color);
+    color: white;
+    padding: 2.3rem 0;
+}
+
+.section-footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.section-footer h2{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.section-footer h3{
+    margin-bottom: 0.7rem;
+}
+
+.section-footer a{
+    line-height: 1.5;
+    color: white;
 }
 
 /* Utilities */
@@ -193,5 +221,5 @@ img{
 }
 
 .icon-size{
-    width: 70px;
+    width: 4rem;
 }
