@@ -267,3 +267,26 @@ img{
 .icon-size{
     width: 4rem;
 }
+
+/* Media Queries */
+
+@media(max-width: 700px){
+    .section-showcase .container{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    /* Move the image above the text */
+    .section-showcase .container div:first-child{
+        order: 2;
+    }
+
+    .section-showcase .container div:last-child{
+        order: 1;
+    }
+
+    .section-showcase img{
+        width: 50%;
+        margin: auto;
+    }
+}
