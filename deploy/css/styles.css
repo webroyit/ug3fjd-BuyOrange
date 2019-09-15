@@ -286,7 +286,43 @@ img{
     }
 
     .section-showcase img{
-        width: 50%;
+        width: 70%;
         margin: auto;
     }
+
+    .section-overlay-inner h2{
+        font-size: 3rem;
+    }
+
+    .section-overlay-inner p{
+        font-size: 1.2rem;
+    }
+
+    .section-gallery .gallery{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .section-gallery .gallery a:first-child{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .section-gallery .gallery a:nth-child(2){
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .section-gallery .gallery a:last-child{
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        height: 15rem;;
+    }
+
+
 }
