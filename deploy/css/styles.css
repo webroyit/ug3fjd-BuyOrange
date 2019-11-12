@@ -97,6 +97,11 @@ img{
     margin: 1rem 0;
 }
 
+.animated{
+    display: inline-block;
+    background: url('../img/background-line.png') no-repeat;
+}
+
 /* Overlay */
 
 .section-overlay{
@@ -270,7 +275,11 @@ img{
 
 /* Media Queries */
 
-@media(max-width: 700px){
+@media(max-width: 750px){
+    #showcase-img{
+        width: 50%;
+    }
+
     .section-showcase .container{
         grid-template-columns: 1fr;
         text-align: center;
