@@ -105,6 +105,20 @@ img{
     /* use background image for your text */
     background-clip: text;
     -webkit-background-clip: text;
+
+    /* infinite to keep showing animation */
+    animation: moveBg 1s linear infinite;
+    -webkit-animation: moveColor 2s linear infinite;
+}
+
+@keyframes moveColor{
+    0%{
+        background-position: 0% 30%;
+    }
+
+    100%{
+        background-position: 100% 50%;
+    }
 }
 
 /* Overlay */
